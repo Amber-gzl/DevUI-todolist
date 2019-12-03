@@ -1,0 +1,40 @@
+.context{
+    /* width: 50%;
+    height: 334px; */
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    
+}
+/* .context {
+    flex:1;
+    width: 50%;
+    height: 334px;
+} */
+.quadrant{
+
+    /* background-color: #F95F5B; */
+    width: 50%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 2.5%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
+.quadrant2{
+
+    /* background-color: #F95F5B; */
+    width: 50%;
+    height: 300px;
+    margin-left: 2.5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    /* flex-wrap: wrap;
+    flex-direction: column; */
+}
+.task{
+    height: 20%;
+}

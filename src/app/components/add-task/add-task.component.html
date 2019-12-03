@@ -1,0 +1,25 @@
+<div class="total">
+  <app-header></app-header>
+
+  <div class="main">
+    <textarea cols="30" rows="10">请输入...
+  </textarea>
+    <hr>
+    <div class="choose">
+      <div class="left">四象限</div>
+      <div class="right">
+        <d-radio-group [name]="'season'" [values]="values" [(ngModel)]="choose" (change)="log($event)">
+        </d-radio-group>
+      </div>
+    </div>
+  </div>
+  <div class="repeat">
+    <p style="font-size: 20px;padding-left: 20px;">提醒/重复</p>
+    <d-toggle size="medium" style="padding-right: 20px;"></d-toggle>
+
+  </div>
+  <div class="submit">
+      <d-button>submit</d-button>
+  </div>
+  
+</div>
