@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { DevUIModule } from 'ng-devui';
+import { BrowserAnimationsModule }from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -20,7 +21,6 @@ import { TodayComponent } from './components/today/today.component';
 @NgModule({
   declarations: [
     AppComponent,
-
     QuadrantComponent,
     ListComponent,
     AddTaskComponent,
@@ -35,6 +35,8 @@ import { TodayComponent } from './components/today/today.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    
+    BrowserAnimationsModule,
 
     DevUIModule,
     FormsModule
