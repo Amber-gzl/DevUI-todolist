@@ -2,7 +2,10 @@
   <d-tabs  [type]="'options'" [(activeTab)]="tabacticeID">
     <d-tab id="tab1" title="番茄钟" tabId="tab1">
         <ng-template dTabContent>
-            番茄钟
+            <h2>番茄钟</h2>
+            <div class="progress-container">
+              <d-progress [isCircle]="true" [percentage]="80"> </d-progress>
+            </div>
         </ng-template>
     </d-tab>
 
