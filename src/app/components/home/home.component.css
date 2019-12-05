@@ -1,6 +1,6 @@
 .container {
     margin:0 auto;
-    width:440px;
+    /* width:440px; */
     height: 100vh;
     margin: 0;
     background: #f3f6f8;
@@ -20,10 +20,10 @@
 }
 
 .header d-tabs {
-    position: relative;
+    /* position: relative;
     top: 1px;
     display: inline-block;
     margin-left: 100px;
     line-height: 32px;
-    z-index: 1;
+    z-index: 1; */
 }
