@@ -1,18 +1,21 @@
 .container {
-    float: left;
-    height: 400px;
+    height: 200px;
     margin:10px 0 15px 0;
+    border-style: solid 1px #462c2c;
 }
 .container .job{
     border-style: solid 1px #462c2c;
+    text-align: center;
 }
-.container .update {
+.update {
     height: 50px;
     margin-top:10px;
     border-style: solid 1px #462c2c;
+    text-align: center;
 }
-.container .everyday {
+.everyday {
     height: 50px;
     margin-top: 100px;
     border-style: solid 1px #462c2c;
+    text-align:center;
 }
